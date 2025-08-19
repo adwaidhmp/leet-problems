@@ -1,8 +1,8 @@
 /**
- * @param {any[]} arr
+ * @param {Array} arr
  * @param {Function} fn
- * @return {any[]}
+ * @return {Array}
  */
 var sortBy = function(arr, fn) {
-  return arr.sort((a, b) => fn(a) - fn(b));
+    return arr.sort((a,b)=>fn(a)-fn(b));
 };
